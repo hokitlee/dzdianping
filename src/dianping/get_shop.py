@@ -5,7 +5,7 @@ import json
 from urllib import parse
 from bs4 import BeautifulSoup
 
-db = pymysql.connect("182.254.131.31", "test", "test", "test_dianping")
+db = pymysql.connect("182.254.131.31", "", "", "test_dianping")
 cursor = db.cursor()
 
 

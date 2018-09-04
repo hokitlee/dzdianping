@@ -8,9 +8,8 @@ import random
 import review
 
 
-
 def re_submit(shop_id, review_body, food_feature):
-    price = random.randint(30,100);
+    price = random.randint(30, 100)
     url = 'http://www.dianping.com/ajax/json/review/reviewAction'
     post_body = {
         "shopId": shop_id,
@@ -79,7 +78,7 @@ def re_submit(shop_id, review_body, food_feature):
     # fp.close()  # 关闭文件
 
 
-db = pymysql.connect("182.254.131.31", "test", "test", "test_dianping")
+db = pymysql.connect("182.254.131.31", "", "", "test_dianping")
 cursor = db.cursor()
 cursor.execute("SELECT * FROM shopInfo WHERE visit = 0 LIMIT 10")
 data = cursor.fetchall()
@@ -89,7 +88,6 @@ for item in data:
 print(shop_list)
 
 for shop_id in shop_list:
-
     re_body = review.get_rev_body(shop_id)
     re_p = review.get_food(shop_id)
     re_submit(shop_id, re_body, re_p)
