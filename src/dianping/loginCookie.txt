@@ -1,0 +1,8 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.dianping.com	TRUE	/	FALSE	1567322997	ctu	dea58c8ebad3ea36abc90e118d78fd0ddcf579948cd9a44bc895f1804b19e94e
+.dianping.com	TRUE	/	FALSE	1538465397	dper	18f324c28ece264bf6dc69dfdc920a01ff88151a721aa8f725ca93f90f8e5b4a8d0b3e02d0e5d80bb585576693db04b5478b1141b53b1cd4c04fe7b0158ff7cc
+.dianping.com	TRUE	/	FALSE		ll	7fd06e815b796be3df069dec7836c3df
+.dianping.com	TRUE	/	FALSE	1567322997	ua	hokitlee
